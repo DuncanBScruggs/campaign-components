@@ -1,6 +1,17 @@
-body {
-    background-image: url("");
-    background-repeat: no-repeat; 
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: black;
-   }
+body { 
+    background: url("img/Ciaphas-Cain-Choose-Your-Enemies.jpg") no-repeat center center fixed; 
+    
+    background-size: cover;
+    background-position: right 0px top 0px;
+  }
+  @media (max-width: 770px) {
+    body {
+        background: url("img/caiphas-cain-phone.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-position: top 0px;
+    }
+    s {
+        font-style: italic;
+        color: red;
+    }
+}
